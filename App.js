@@ -1,7 +1,8 @@
 import React from 'react';
 import {StatusBar, SafeAreaView} from 'react-native';
 import AppRotas from './src/rotas/AppRotas';
-import Produtor from './src/telas/produtor';
+import Produtor from './src/telas/Produtor';
+import PorudotorRotas from './src/rotas/ProdutorRotas';
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <StatusBar />
       <AppRotas />
       {/* <Produtor /> */}
+      {/* <PorudotorRotas /> */}
     </SafeAreaView>
   );
 }
