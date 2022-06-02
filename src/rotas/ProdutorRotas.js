@@ -1,9 +1,9 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Home from '../telas/Home';
-import Cesta from '../telas/Cesta';
 
+import Home from '../telas/Home';
 import Produtor from '../telas/Produtor';
+import Cesta from '../telas/Cesta';
 
 const Stack = createNativeStackNavigator();
 
